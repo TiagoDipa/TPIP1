@@ -103,7 +103,49 @@
     background-color: #96c93e !important;
     border: 1px solid #96c93e !important;
   }
+
+  .gc {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px auto;
+    
+  }
+
+  .grid {
+    display: grid;
+    place-items: center;
+    
+  }
+
+  .h3-title {
+    margin-top: 15px;
+  }
   
+  .card-text {
+    text-align: center;
+    margin: 0 !important;
+  }
+  
+  .card-title {
+    text-align: center;
+  }
+
+  .rowCC {
+    margin: 11px;
+  }
+
+  .TaP {
+    display: flex;
+    background-color: rgb(113, 177, 250);
+    height: 60px;
+    width: 100%;
+    margin: auto !important;
+    align-items: center;
+    border-radius: 5px;
+    padding-left: 4px; 
+  }
+   
   footer {
     height: 80px;
     background-image: linear-gradient(to right, #1c3643, #1d5271);
